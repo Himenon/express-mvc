@@ -13,3 +13,11 @@ yarn
 ```bash
 yarn server
 ```
+
+
+## build
+
+```
+yarn build          # run docker build
+yarn server:docker  # run server on docker
+```
