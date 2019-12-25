@@ -5,7 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "server": "nodemon ./src/server.js"
+    "server": "nodemon ./src/server.js",
+    "build": "docker build -t express-mvc .",
+    "server:docker": "docker run -p 9000:9000 express-mvc"
   },
   "dependencies": {
     "express": "^4.17.1"
